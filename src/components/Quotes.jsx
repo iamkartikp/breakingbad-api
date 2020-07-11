@@ -24,7 +24,7 @@ class Quotes extends Component {
                 {this.state.quotes.map(q => (
                     <div className="quote-text">
                         <h4>❝ {q.quote} ❞</h4>
-                        <p>- {q.author} ( {q.series} )</p>
+                        <p>- {q.author} ({q.series})</p>
                     </div>
                 ))}
             </div>
